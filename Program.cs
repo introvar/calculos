@@ -11,6 +11,7 @@ namespace Calculos
         static void Main(string[] args)
         {
             Console.WriteLine("Aplicação Cálculos");
+            Console.WriteLine("Aplicação Cálculos");
 
             Console.ReadKey();
         }
