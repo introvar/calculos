@@ -15,6 +15,13 @@ namespace Calculos
             Console.WriteLine($"4 - 2 = {Aritmetica.Subtrair(4,2)}");
             Console.WriteLine($"4 * 2 = {Aritmetica.Multiplicar(4,2)}");
 
+            double t1 = Conversoes.ConversaoTemperatura(Conversoes.ConversaoTemperatura.CelsiusFahrenheit, 36);
+            double t2 = Conversoes.ConversaoTemperatura(Conversoes.ConversaoTemperatura.FahrenheitCelsius, 100);
+
+            Console.WriteLine($"36º Celsius = {t1)}º Fahrenheit");
+            Console.WriteLine($"100º Fahrenheit = {t2)}º Celsius");
+
+
             Console.ReadKey();
         }
     }
